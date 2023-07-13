@@ -1,14 +1,16 @@
+import Project3.TaskManager;
+
 import java.util.Scanner;
 public class Main {
     static Scanner input = new Scanner(System.in);
 
     public static void main(String[] args) {
-
-        question_1();
-        System.out.println("_________________");
-        question_2();
-        System.out.println("_________________");
-        question_3();
+        new TaskManager();
+//        question_1();
+//        System.out.println("_________________");
+//        question_2();
+//        System.out.println("_________________");
+//        question_3();
     }
 
     public static void question_2() {
