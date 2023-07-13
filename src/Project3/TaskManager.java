@@ -90,8 +90,6 @@ public class TaskManager {
     }
     public  void ask() {
         Scanner input = new Scanner(System.in);
-
-
         while (true) {
             System.out.println("Task Manager Menu:");
             System.out.println("1. Add Task");
@@ -141,5 +139,9 @@ public class TaskManager {
             }
             System.out.println();
         }
+    }
+
+    public static void main(String[] args) {
+        new TaskManager();
     }
 }
