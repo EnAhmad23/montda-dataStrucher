@@ -1,5 +1,3 @@
-package Deque;
-
 public class Deque_Circular_array {
     private int[] num;
     private int size = 0;

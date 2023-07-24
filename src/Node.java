@@ -1,5 +1,3 @@
-package Deque;
-
 public class Node<E> {
 
     private E element; // reference to the element stored at this node

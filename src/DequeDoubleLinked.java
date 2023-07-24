@@ -1,5 +1,3 @@
-package Deque;
-
 public class DequeDoubleLinked {
     DoublyLinkedList<Integer> list = new DoublyLinkedList<>();
 
